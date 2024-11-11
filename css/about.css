@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "puvi-Medium";
+    src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "puvi-Regular";
+    src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "puvi-Light";
+    src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Light.ttf");
+  }
+  
+  @font-face {
+    font-family: "puvi-Bold";
+    src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "puvi-Semi-Bold";
+    src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Semibold.ttf");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+  
+  /* Header Style */
+  header {
+    /* position: sticky;
+    top: 0; */
+    z-index: 1;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+  }
+  
+  nav {
+    padding: 0px !important;
+  }
+  
+  .navbar .navbar-brand img {
+    width: 160px;
+  }
+  
+  .nav_list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: "puvi-Regular";
+  }
+  
+  .navbar-nav li {
+    margin-left: 36px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    font-family: "puvi-Semi-Bold";
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(250 204 21) !important;
+  }
+  
+  .nav-login-btn .login-a-tag {
+    width: 122px;
+    height: 52px;
+    margin-left: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: "puvi-Semi-Bold";
+    background-color: rgb(234, 179, 8);
+    border: 2px solid rgb(250 204 21);
+  }
+  
+  .nav-login-btn .login-a-tag:hover {
+    color: rgb(250 204 21) !important;
+    background-color: #ffff;
+  }
+  
