@@ -334,6 +334,13 @@ nav {
   margin-top: 108px;
   border-radius: 10px;
   background-color: #171717;
+  position: relative;
+}
+
+.sec3-content-title-body{
+  position: absolute;
+  top: -38px;
+  left: 0px;
 }
 
 .sec3-content-3-text {
