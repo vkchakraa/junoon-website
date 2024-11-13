@@ -62,9 +62,9 @@ nav {
   font-family: "puvi-Semi-Bold";
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+/* .navbar-nav .nav-item .nav-link:hover {
   color: rgb(250 204 21) !important;
-}
+} */
 
 .nav-login-btn .login-a-tag {
   width: 122px;
@@ -81,9 +81,15 @@ nav {
 }
 
 .nav-login-btn .login-a-tag:hover {
-  background-color: #ffff;
-  color: rgb(250 204 21) !important;
+  /* background-color: #ffff; */
+  /* color: rgb(250 204 21) !important; */
+  cursor: not-allowed;
 }
+
+.nav_list li:hover{
+  cursor: not-allowed !important;
+}
+
 
 /* Section-1 Style */
 .section1 {
