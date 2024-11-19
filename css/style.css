@@ -62,9 +62,9 @@ nav {
   font-family: "puvi-Semi-Bold";
 }
 
-/* .navbar-nav .nav-item .nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
   color: rgb(250 204 21) !important;
-} */
+}
 
 .nav-login-btn .login-a-tag {
   width: 122px;
@@ -81,15 +81,44 @@ nav {
 }
 
 .nav-login-btn .login-a-tag:hover {
-  /* background-color: #ffff; */
-  /* color: rgb(250 204 21) !important; */
-  cursor: not-allowed;
+  background-color: #ffff;
+  color: rgb(250 204 21) !important;
+  cursor: pointer;
 }
 
-.nav_list li:hover{
-  cursor: not-allowed !important;
+.our-works-body {
+  position: relative;
+  cursor: pointer;
 }
 
+.our-works-sub-body {
+  width: 180px;
+  position: absolute;
+  left: -40%;
+  border-radius: 5px;
+  background-color: #0a0a0a;
+  display: none;
+}
+
+.our-works-sub-body a:hover {
+  text-decoration: none;
+}
+
+.our-works {
+  width: 100%;
+  height: 35px;
+  padding: 5px 8px;
+  color: white !important;
+  font-family: "puvi-Semi-Bold";
+}
+
+.our-works:hover {
+  color: rgb(250 204 21) !important;
+}
+
+.our-works-body:hover .our-works-sub-body {
+  display: block;
+}
 
 /* Section-1 Style */
 .section1 {
@@ -143,7 +172,7 @@ nav {
   align-items: end;
 }
 
-.sec1-content-3 a:hover{
+.sec1-content-3 a:hover {
   text-decoration: none;
 }
 
@@ -337,8 +366,8 @@ nav {
   font-family: "puvi-Bold";
 }
 
-/* Section-4 Style */
-.section4 {
+/* Our Program Style */
+.our-program-body {
   width: 100%;
   min-height: 710px;
   padding: 20px 0px;
@@ -349,7 +378,7 @@ nav {
   background-color: #171717;
 }
 
-.sec4-content-1 {
+.our-program-content-1 {
   max-width: 1031px;
   min-height: 84px;
   color: white;
@@ -358,7 +387,7 @@ nav {
   font-family: "puvi-Bold";
 }
 
-.sec4-content-2 {
+.our-program-content-2 {
   max-width: 1016px;
   min-height: 400px;
   margin-top: 48px;
@@ -369,7 +398,7 @@ nav {
   justify-content: space-around;
 }
 
-.sec4-content-2-box {
+.our-program-content-2-box {
   width: 280px;
   height: 400px;
   overflow: hidden;
@@ -380,19 +409,19 @@ nav {
   background-color: #000000;
 }
 
-.sec4-content-2-img {
+.our-program-content-2-img {
   width: 280px;
   height: 200px;
   object-fit: cover;
 }
 
-.sec4-content-2-deatils {
+.our-program-content-2-deatils {
   margin-top: 8px;
   width: 232px;
   height: 120px;
 }
 
-.sec4-content-2-deatil-title {
+.our-program-content-2-deatil-title {
   width: 100%;
   font-size: 22px;
   color: #e2e8f0;
@@ -400,29 +429,28 @@ nav {
   text-align: center;
 }
 
-.sec4-content-2-deatil-content {
+.our-program-content-2-deatil-content {
   font-size: 16px;
   color: #e2e8f0;
   margin-top: 8px;
 }
 
-.sec4-content-2-button-tag:hover {
+.our-program-content-2-button-tag:hover {
   text-decoration: none;
 }
 
-.sec4-content-2-button {
+.our-program-content-2-button {
   padding: 8px 16px;
   color: white;
   border-radius: 5px;
   background-color: #f97316;
 }
 
-.sec4-content-2-button:hover {
+.our-program-content-2-button:hover {
   cursor: pointer;
   border-radius: 5px;
   background-color: #dc2626;
 }
-
 /* Section-5 Style */
 .section5 {
   width: 100%;
@@ -768,8 +796,6 @@ textarea:focus {
   }
 }
 
-
-
 @media (min-width: 480px) and (max-width: 700px) {
   .copyrights-content {
     gap: 30px;
@@ -781,7 +807,6 @@ textarea:focus {
     gap: 0px;
   }
 }
-
 
 /* Phone Size Media-Queries   */
 @media (min-width: 360px) and (max-width: 430px) {
@@ -803,6 +828,10 @@ textarea:focus {
     width: 95px;
     height: 42px;
     font-size: 14px;
+  }
+
+  .our-works-sub-body {
+    left: 0px;
   }
 
   /* Section-1 Style */
@@ -902,32 +931,32 @@ textarea:focus {
     text-align: justify;
   }
 
-  /* Section-4 Style */
-  .sec4-content-1 {
+  /* Our Program Style */
+  .our-program-content-1 {
     font-size: 16px;
     margin-top: 30px;
   }
 
-  .sec4-content-2 {
+  .our-program-content-2 {
     gap: 40px;
   }
 
-  .sec4-content-2-box {
+  .our-program-content-2-box {
     height: 380px;
   }
 
-  .sec4-content-2-deatils {
+  .our-program-content-2-deatils {
     height: 100px;
   }
 
-  .sec4-content-2-deatil-title {
+  .our-program-content-2-deatil-title {
     font-size: 16px;
   }
 
-  .sec4-content-2-deatil-content {
+  .our-program-content-2-deatil-content {
     font-size: 14px;
   }
-  .sec4-content-2-button {
+  .our-program-content-2-button {
     padding: 6px 14px;
     font-size: 14px;
   }

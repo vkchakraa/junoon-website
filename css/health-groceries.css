@@ -1,0 +1,720 @@
+@font-face {
+  font-family: "puvi-Medium";
+  src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "puvi-Regular";
+  src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "puvi-Light";
+  src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Light.ttf");
+}
+
+@font-face {
+  font-family: "puvi-Bold";
+  src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "puvi-Semi-Bold";
+  src: url("../fonts/OpenType-TT/Zoho\ Puvi\ Semibold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Style */
+header {
+  z-index: 1;
+  background-color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+}
+
+nav {
+  padding: 0px !important;
+}
+
+.navbar .navbar-brand img {
+  width: 160px;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-family: "puvi-Regular";
+}
+
+.navbar-nav li {
+  margin-left: 36px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+  font-family: "puvi-Semi-Bold";
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(250 204 21) !important;
+}
+
+.nav-login-btn .login-a-tag {
+  width: 122px;
+  height: 52px;
+  font-size: 16px;
+  margin-left: 36px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "puvi-Semi-Bold";
+  background-color: rgb(234, 179, 8);
+  border: 2px solid rgb(250 204 21);
+}
+
+.nav-login-btn .login-a-tag:hover {
+  background-color: #ffff;
+  color: rgb(250 204 21) !important;
+  cursor: pointer;
+}
+
+.our-works-body {
+  position: relative;
+  cursor: pointer;
+}
+
+.our-works-sub-body {
+  width: 180px;
+  position: absolute;
+  left: -40%;
+  border-radius: 5px;
+  background-color: #0a0a0a;
+  display: none;
+}
+
+.our-works-sub-body a:hover {
+  text-decoration: none;
+}
+
+.our-works {
+  width: 100%;
+  height: 35px;
+  padding: 5px 8px;
+  color: white !important;
+  font-family: "puvi-Semi-Bold";
+}
+
+.our-works:hover {
+  color: rgb(250 204 21) !important;
+}
+
+.our-works-body:hover .our-works-sub-body {
+  display: block;
+}
+
+/* Health & Nutrition Style */
+.health-landing-page-body {
+  height: 240px;
+  background-image: url("../media/healthLadingImg.png");
+  background-size: cover;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.health-landing-page-text {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  font-family: "puvi-Bold";
+}
+
+.health-landing-page-text span {
+  color: #ea580c;
+}
+
+/*Health & Nutrition Content Style */
+.health-landing-page-content-body {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.health-landing-page-content {
+  max-width: 935px;
+  font-size: 24px;
+  color: white;
+}
+
+/* health Page Line Style */
+.health-page-line-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.health-page-line {
+  width: 77.3%;
+  max-width: 1031;
+  height: 2px;
+  background-color: rgb(234, 179, 8);
+}
+
+/* Health Page Title */
+.health-title {
+  width: 100%;
+  font-size: 48px;
+  color: #ea580c;
+  text-align: center;
+  font-family: "puvi-Bold";
+}
+
+/* Monthly Health checkup */
+.monthly-health-checkup-body {
+  padding-top: 38px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.monthly-health-checkup-text-box {
+  max-width: 935px;
+  margin-top: 68px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.monthly-health-checkup-text {
+  color: white;
+  font-size: 20px;
+  font-family: "puvi-Semi-Bold";
+}
+
+.monthly-health-checkup-img-box {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.monthly-health-checkup-img {
+  width: 341px;
+  height: 320px;
+}
+
+.monthly-health-checkup-img2 {
+  width: 448px;
+}
+
+/* Daily meals Style */
+.daily-meals-body {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171717;
+}
+
+.daily-meals-content-box {
+  display: flex;
+  gap: 168px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.daily-meals-content-img {
+  width: 427px;
+  height: 320px;
+}
+
+.daily-meals-content-text {
+  max-width: 428px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Monthly Grocery Style */
+.monthly-grocery-body {
+  padding-top: 40px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.monthly-grocery-text {
+  max-width: 967px;
+  font-size: 20px;
+  color: white;
+  margin-top: 35px;
+  padding: 0px 20px;
+}
+
+.monthly-grocery-img-box {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.monthly-grocery-img {
+  width: 341px;
+  height: 320px;
+}
+
+.monthly-grocery-img2 {
+  width: 448px;
+}
+
+/* Footer Style */
+footer {
+  height: auto;
+  background-color: #171717;
+}
+
+.footer {
+  min-height: 644px;
+  padding-top: 40px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content-box {
+  max-width: 1198px;
+  min-height: 548px;
+  margin-top: 96px;
+  display: flex;
+  gap: 124px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content1 {
+  max-width: 523px;
+  padding-bottom: 40px;
+}
+
+.footer-content1-img {
+  width: 336px;
+  height: 176px;
+}
+
+.footer-content1-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-content1-text-body {
+  max-width: 411px;
+  height: 160px;
+  padding-top: 32px;
+  padding-left: 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer-content1-text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-content1-text img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-content1-text span {
+  color: white;
+  font-size: 20px;
+  font-family: "puvi-Bold";
+}
+
+.footer-content2 {
+  max-width: 660px;
+  min-height: 548px;
+}
+
+.footer-content2 form {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.footer-form-content {
+  width: 100%;
+  min-height: 92px;
+}
+
+.footer-form-content1 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-form-content3 {
+  min-height: 10px;
+}
+
+.footer-form-content4 {
+  min-height: 56px;
+}
+
+form label {
+  font-size: 18px;
+  color: white;
+  font-family: "puvi-Semi-bold";
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border: 1px solid white;
+}
+
+.footer-form-content1 span {
+  width: 320px;
+  height: 100%;
+}
+
+.footer-form-content1 span input {
+  width: 100%;
+  height: 56px;
+  outline: none;
+  color: white;
+  padding: 16px 12px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+
+.footer-form-content2 input {
+  width: 100%;
+  height: 56px;
+  outline: none;
+  color: white;
+  padding: 16px 12px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+
+.footer-form-content3 textarea {
+  width: 100%;
+  outline: none;
+  color: white;
+  padding: 16px 12px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+
+.footer-form-content3 textarea:focus {
+  border: 1px solid white;
+}
+
+.footer-form-content4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-form-content4 button {
+  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  font-family: "puvi-Bold";
+  background-color: #fb923c;
+}
+
+.footer-form-content4 button:hover {
+  cursor: pointer;
+  background-color: #f59e0b;
+}
+
+/* Copyrights Style Start */
+.copyrights {
+  padding-bottom: 24px;
+  background-color: #171717;
+}
+
+.sub-copyrights {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fb923c;
+}
+
+.copyrights-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 490px;
+  justify-content: space-around;
+}
+
+.copyrights-icon {
+  width: 120px;
+  height: 52px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.copyrights-icon img {
+  width: 21px;
+  height: 21px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.copyrights-text {
+  width: 360px;
+  height: 52px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyrights-text span {
+  font-size: 12px;
+  color: white;
+}
+
+/* Media-Queries Style Start */
+/* Menu Bar gap align */
+@media (min-width: 480px) and (max-width: 991px) {
+  .navbar-nav li {
+    margin-left: 15px;
+  }
+
+  .nav_list {
+    align-items: start;
+  }
+
+  .nav-login-btn .login-a-tag {
+    margin-left: 0px;
+  }
+}
+
+/* Copyrights gap align */
+@media (min-width: 480px) and (max-width: 993px) {
+  .copyrights-content {
+    gap: 350px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 852px) {
+  .copyrights-content {
+    gap: 200px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 709px) {
+  .copyrights-content {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 700px) {
+  .copyrights-content {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 539px) {
+  .copyrights-content {
+    gap: 0px;
+  }
+}
+
+/* Img Style */
+@media (min-width: 480px) and (max-width: 874px) {
+  .monthly-grocery-img2 {
+    width: 341px;
+  }
+
+  .daily-meals-content-img {
+    width: 341px;
+  }
+
+  .monthly-health-checkup-img2 {
+    width: 341px;
+  }
+}
+
+/* Phone Size Media-Queries   */
+@media (min-width: 360px) and (max-width: 430px) {
+  /* Header Style */
+  .nav_list {
+    align-items: start;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  .navbar-nav li {
+    margin-left: 0px;
+  }
+
+  .nav-login-btn .login-a-tag {
+    margin-left: 0px;
+    width: 95px;
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .our-works-sub-body {
+    left: 0px;
+  }
+
+  .health-landing-page-text {
+    font-size: 35px;
+  }
+
+  /* Health Page Title */
+  .health-title {
+    font-size: 35px;
+  }
+
+  /*Health & Nutrition Content Style */
+  .health-landing-page-content-body {
+    padding: 40px 20px;
+  }
+
+  .health-landing-page-content {
+    font-size: 18px;
+  }
+
+  /* Monthly Health checkup */
+  .monthly-health-checkup-text-box {
+    margin-top: 30px;
+  }
+
+  .monthly-health-checkup-text {
+    font-size: 18px;
+  }
+
+  /* Daily meals Style */
+  .daily-meals-content-box {
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .daily-meals-content-text {
+    font-size: 18px;
+  }
+
+  .daily-meals-content-img {
+    width: 341px;
+    height: 320px;
+  }
+
+  /*  */
+  .monthly-health-checkup-img2 {
+    width: 341px;
+  }
+
+  .monthly-grocery-img2 {
+    width: 341px;
+  }
+
+  /* Footer Style */
+  .footer {
+    padding-bottom: 40px;
+  }
+
+  .footer-content-box {
+    margin-top: 60px;
+    max-width: 360px;
+    gap: 30px;
+  }
+  .footer-content1-img {
+    width: 280px;
+    height: auto;
+  }
+
+  .footer-content1-text-body {
+    height: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+    gap: 10px;
+  }
+
+  .footer-content1-text {
+    gap: 12px;
+  }
+
+  .footer-content1-text img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .footer-content1-text span {
+    font-size: 16px;
+  }
+
+  .footer-content2 {
+    max-width: 360px;
+  }
+
+  .footer-content2 form {
+    gap: 20px;
+    padding: 0px 10px;
+  }
+
+  form label {
+    font-size: 14px;
+  }
+
+  .footer-form-content1 span {
+    width: 360px;
+  }
+
+  .footer-form-content4 button {
+    padding: 12px;
+  }
+
+  /* copy rights */
+  .copyrights-content {
+    gap: 0px;
+  }
+}
