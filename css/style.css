@@ -535,6 +535,36 @@ nav {
   color: #ffff;
 }
 
+/* Section-6 Style */
+.section6 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #0a0a0a;
+}
+
+.sec6-content-1{
+  width: 100%;
+  min-height: 400px;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sec6-content-img-body{
+  max-width: 621px;
+  height: 400px;
+}
+
+.sec6-content-img-body img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
 /* Footer Style */
 footer {
   height: auto;
@@ -556,12 +586,13 @@ footer {
   display: flex;
   gap: 124px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 
 .footer-content1 {
   max-width: 523px;
+  height: auto;
   padding-bottom: 40px;
 }
 
@@ -577,18 +608,24 @@ footer {
 
 .footer-content1-text-body {
   max-width: 411px;
-  height: 160px;
   padding-top: 32px;
-  padding-left: 40px;
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
+}
+
+.footer-details-parent-box{
+  margin-bottom: 20px;
+}
+
+.footer-details-sub-title{
+  color: white;
+  font-size: 16px;
+  font-family: "puvi-regular";
 }
 
 .footer-content1-text {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
+  margin-top: 10px;
 }
 
 .footer-content1-text img {
@@ -598,7 +635,7 @@ footer {
 
 .footer-content1-text span {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "puvi-Bold";
 }
 
@@ -1006,6 +1043,21 @@ textarea:focus {
     font-size: 14px;
   }
 
+  /* Section-5 Style */
+  .section6 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .sec6-content-1{
+    margin-top: 30px;
+  }
+
+  .sec6-content-img-body{
+    height: 200px;
+  }
+
+
   /* Footer Style */
   .footer {
     padding-bottom: 40px;
@@ -1015,6 +1067,7 @@ textarea:focus {
     margin-top: 60px;
     max-width: 360px;
     gap: 30px;
+    /* background-color: red; */
   }
   .footer-content1-img {
     width: 280px;
@@ -1022,7 +1075,7 @@ textarea:focus {
   }
 
   .footer-content1-text-body {
-    height: 100px;
+    /* height: 100px; */
     padding-top: 0px;
     margin-top: 0px;
     gap: 10px;

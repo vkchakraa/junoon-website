@@ -442,12 +442,13 @@ footer {
   display: flex;
   gap: 124px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 
 .footer-content1 {
   max-width: 523px;
+  height: auto;
   padding-bottom: 40px;
 }
 
@@ -463,18 +464,24 @@ footer {
 
 .footer-content1-text-body {
   max-width: 411px;
-  height: 160px;
   padding-top: 32px;
-  padding-left: 40px;
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
+}
+
+.footer-details-parent-box {
+  margin-bottom: 20px;
+}
+
+.footer-details-sub-title {
+  color: white;
+  font-size: 16px;
+  font-family: "puvi-regular";
 }
 
 .footer-content1-text {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
+  margin-top: 10px;
 }
 
 .footer-content1-text img {
@@ -484,7 +491,7 @@ footer {
 
 .footer-content1-text span {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "puvi-Bold";
 }
 
@@ -714,7 +721,7 @@ textarea:focus {
     height: 42px;
     font-size: 14px;
   }
-  
+
   .our-works-sub-body {
     left: 0px;
   }
@@ -814,7 +821,7 @@ textarea:focus {
   }
 
   .footer-content1-text-body {
-    height: 100px;
+    /* height: 100px; */
     padding-top: 0px;
     margin-top: 0px;
     gap: 10px;
