@@ -28,7 +28,7 @@ const data = [
   },
   {
     name: "Minal Baghwe",
-    role : "Teacher at pai nagar",
+    role : "Teacher at Pai Nagar",
     content : [
       {
         text : "Hello, I am Minal Bagwe. I am a teacher in Junoon foundation. Working for an NGO is my 1st experience and I am really enjoying my interaction with kids. I found that kids are happily participate and always eager to learn new things whether its  related to education, art or cultural activities."
@@ -57,7 +57,7 @@ const data = [
   },
   {
     name: "Rupal Joshi",
-    role : "Branch head at pai nagar",
+    role : "Branch head at Pai Nagar",
     content : [
       {
         text : "My name is Rupal Joshi , and I am a teacher at Junoon. Working here has been an inspiring experience. What touches me most is how eager the children are to learn and grow, no matter their background. It’s not just about studies but also their overall development. Watching them participate in activities beyond studies, enjoying themselves, and building new skills is truly rewarding."
