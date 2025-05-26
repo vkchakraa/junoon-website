@@ -23,15 +23,6 @@ const data = [
       {
         text : "Haimanti Sen is the founder of Junoon Foundation."
       },
-      {
-        text : "The entire Junoon team is always positive in their outlook and work towards betterment of these under privileged children, irrespective of various difficulties they face."
-      },
-      {
-        text : "Interaction with these kids, helping me to look positively towards obstacles. Their interest in learning encourages me to impart as much as knowledge to them."
-      },
-      {
-        text : "Looking forward great future and a successful life for these kids. Thank you."
-      }
     ],
     image : "media/founder.jpg"
   },
